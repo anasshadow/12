@@ -140,13 +140,11 @@ client3.on('message', message => {
 
 client3.on('message', message => {
     if(message.content === 'me'){
-        message.channel.send("#credit"+
-/n
-+ "<@" + myid + ">" +
-/n
-+ creditnumber )
+        message.channel.send("#credit" +  + "<@" + myid + ">" + creditnumber )
     }
 });
+
+
 
 client.login(process.env.BOT_TOKEN);
 client2.login(process.env.BOT_TOKEN2);
