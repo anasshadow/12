@@ -13,6 +13,13 @@ channel.send(`حزن `);
 }, 1000)
 });
 
+client.on("ready", () => {
+let channel =     client.channels.get("618079138376450198")
+setInterval(function() {
+channel.send(`ساد `);
+}, 1000)
+});
+
 client.on('message', message => {
     if(message.content === prefix+'ريب'){
         message.channel.send("#rep "+"<@" + myid + ">")
@@ -63,6 +70,14 @@ channel.send(`حزن`);
 }, 1)
 });
 
+client2.on("ready", () => {
+let channel =     client.channels.get("618079138376450198")
+setInterval(function() {
+channel.send(`ساد `);
+}, 1000)
+});
+
+
 client2.on('message', message => {
     if(message.content === prefix+'ريب'){
         message.channel.send("#rep "+"<@" + myid + ">")
@@ -106,6 +121,14 @@ client3.on("ready", () => {
     channel.send(`حزن`);
     }, 1)
     });
+
+client3.on("ready", () => {
+let channel =     client.channels.get("618079138376450198")
+setInterval(function() {
+channel.send(`ساد `);
+}, 1000)
+});
+
     
 client3.on('message', message => {
         if(message.content === prefix+'ريب'){
