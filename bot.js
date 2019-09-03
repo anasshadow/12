@@ -4,7 +4,7 @@ const client2 = new Discord.Client();
 const client3 = new Discord.Client();
 const myid = ['524218118462242816'];
 const prefix = ['!'];
-const creditnumber = ['1111'];
+const creditnumber = ['11'];
 
 client.on("ready", () => {
 let channel =     client.channels.get("618079138376450198")
