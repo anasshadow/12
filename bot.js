@@ -7,9 +7,9 @@ const prefix = ['!'];
 const creditnumber = ['11'];
 
 client.on("ready", () => {
-let channel =     client.channels.get("618535857279991872")
+let channel =     client.channels.get("618079138376450198")
 setInterval(function() {
-channel.send(`الزعامة فوقك يمعرص خد ناحو hhhhhhh ksmk`);
+channel.send(`حزن `);
 }, 1000)
 });
 
@@ -59,7 +59,7 @@ client.on('message', message => {
 client2.on("ready", () => {
 let channel =     client2.channels.get("618079138376450198")
 setInterval(function() {
-channel.send(`الزعامة فوقك يمعرص خد ناحو hhhhhhh ksmkk`);
+channel.send(`حزن`);
 }, 1)
 });
 
@@ -103,7 +103,7 @@ client2.on('message', message => {
 client3.on("ready", () => {
     let channel =     client3.channels.get("618079138376450198")
     setInterval(function() {
-    channel.send(`الزعامة فوقك يمعرص خد ناحو hhhhhhh ksmkk`);
+    channel.send(`حزن`);
     }, 1)
     });
     
