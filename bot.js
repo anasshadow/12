@@ -52,7 +52,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === 'me'){
-        message.channel.send("#credit" + "<@" + myid + ">" + creditnumber )
+        message.channel.send("#credit" + NaN "<@" + myid + ">" + NaN creditnumber )
     }
 });
 
@@ -96,7 +96,7 @@ client2.on('message', message => {
 
 client2.on('message', message => {
     if(message.content === 'me'){
-        message.channel.send("#credit" + "<@" + myid + ">" + creditnumber )
+        message.channel.send("#credit" + NaN "<@" + myid + ">" + NaN  creditnumber )
     }
 });
 
@@ -140,7 +140,7 @@ client3.on('message', message => {
 
 client3.on('message', message => {
     if(message.content === 'me'){
-        message.channel.send("#credit" + ' ' + "<@" + myid + ">" + ' ' creditnumber )
+        message.channel.send("#credit" + NaN  "<@" + myid + ">" + NaN  creditnumber )
     }
 });
 
