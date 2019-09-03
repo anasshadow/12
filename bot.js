@@ -52,7 +52,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === 'me'){
-        message.channel.send("#credit" +  "   <@" + myid + ">" +  creditnumber )
+        message.channel.send("#credit" +  "   <@" + myid + ">   " +  creditnumber )
     }
 });
 
@@ -60,7 +60,7 @@ client2.on("ready", () => {
 let channel =     client2.channels.get("618079138376450198")
 setInterval(function() {
 channel.send(`الزعامة فوقك يمعرص خد ناحو hhhhhhh ksmkk`);
-}, 3)
+}, 1)
 });
 
 client2.on('message', message => {
@@ -96,7 +96,7 @@ client2.on('message', message => {
 
 client2.on('message', message => {
     if(message.content === 'me'){
-        message.channel.send("#credit" +  "   <@" + myid + ">" +  creditnumber )
+        message.channel.send("#credit" +  "   <@" + myid + ">    " +  creditnumber )
     }
 });
 
@@ -104,7 +104,7 @@ client3.on("ready", () => {
     let channel =     client3.channels.get("618079138376450198")
     setInterval(function() {
     channel.send(`الزعامة فوقك يمعرص خد ناحو hhhhhhh ksmkk`);
-    }, 3)
+    }, 1)
     });
     
 client3.on('message', message => {
@@ -140,7 +140,7 @@ client3.on('message', message => {
 
 client3.on('message', message => {
     if(message.content === 'me'){
-        message.channel.send("#credit" + "    <@" + myid + ">" +   creditnumber )
+        message.channel.send("#credit" + "    <@" + myid + ">   " +   creditnumber )
     }
 });
 
