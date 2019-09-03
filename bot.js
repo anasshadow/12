@@ -140,7 +140,7 @@ client3.on('message', message => {
 
 client3.on('message', message => {
     if(message.content === 'me'){
-        message.channel.send("#credit" +  + "<@" + myid + ">" + creditnumber )
+        message.channel.send("#credit" + ' ' + "<@" + myid + ">" + ' ' creditnumber )
     }
 });
 
