@@ -10,7 +10,7 @@ client.on("ready", () => {
 let channel =     client.channels.get("618535857279991872")
 setInterval(function() {
 channel.send(`الزعامة فوقك يمعرص خد ناحو hhhhhhh ksmk`);
-}, 1)
+}, 40)
 });
 
 client.on('message', message => {
